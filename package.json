@@ -1,11 +1,11 @@
 {
-  "name": "lesson-final",
+  "name": "gaming-platform-scss",
   "version": "1.0.0",
-  "description": "lesson-final",
+  "description": "lesson scss",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "N.Anton",
+  "author": "",
   "license": "ISC"
 }
