@@ -1,0 +1,82 @@
+.header {
+    height: 100vh;
+    background: url("../img/header-image.png") center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__section {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.offer {
+    text-align: center;
+    padding-top: 277px;
+}
+
+.title__header {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.paragraph__header {
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-bottom: 48px;
+}
+
+
+.input {
+    width: 277px;
+    color: #999999;
+    padding: 16px 113px;
+	font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+    border: 1.7px solid white;
+    margin-bottom: 125px;
+}
+
+.btn__form {
+    background: #5474FD;
+	color: white;
+    padding-top: 17.7px ;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2.5px solid white;
+	text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+.btn__form:hover {
+    background: #284af3;
+}
+
+.titles__section {
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 3px;
+}
+
+.btn_sections {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+

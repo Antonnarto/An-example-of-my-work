@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.back__color {
+    background-color: #5474FD;
+    position: sticky;
+    top: 0;
+    min-height: 2em;
+    z-index: 1;
+    padding: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fas {
+    font-size: 36px;
+    color: white;
+}
+
+.title__section {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.navigation__block {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navigation__block::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .3s ease-in;
+}
+
+
+.navigation__block:hover:after {
+    opacity: 1;
+}
+
+.menu-open {
+    background: none;
+    border: none;
+    display: none;
+}
+
+.show-menu {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #232323;
+    opacity: 0.98;
+    top: 98px;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 40px;   
+}
+
+.back__image {
+    background: url("../img/section-image.png") center no-repeat;
+    background-size: cover;
+
+}
+
+.section__offer {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.content {
+    margin-top: 180px;
+}
+
+.choose {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.paragraph {
+    letter-spacing: 1.6px;
+    line-height: 26px;
+    width: 560px;
+    color: #E8E8E8;
+    margin-bottom: 67px;
+}
+
+.btn {
+    background: #5474FD;
+	color: white;
+    padding: 22px 40px;
+	text-decoration: none;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+}
+
+.btn:hover {
+    background: #284af3;
+}
+
+.section__image {
+    padding-top: 130px;
+    margin-bottom: 115px;
+}
+
+.image {
+    padding-left: 90px;
+    margin-bottom: 10px;
+}
+
+.back__color-silver {
+    background-color: #333333;
+}
+
+.block__text {
+    padding-top: 65px;
+    padding-bottom: 90px;
+}
+
+.boxes__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__text {
+    text-align: center;   
+}
+
+.titles {
+    margin-top: 38px;
+    font-size: 30px;
+}
+
+.house__image {
+    height: 100vh;
+    background: url("../img/Rectangle1.png") center no-repeat;
+    background-size: cover;
+}
+
+.contents {
+    position: relative;
+    padding-top: 16.3em;
+    padding-bottom: 99px;
+}
+
+.background {
+    width: 500px;
+    padding: 50px 20px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+.background.element-show {
+    opacity: 0.98;
+    transition: all 1s;
+    transform: translateY(0%);
+}
+
+.spain {
+    font-size: 20px;
+    margin-bottom: 23px;
+    letter-spacing: 1.5px;
+}
+
+.section__title {
+    font-size: 20px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+
+.mountains__image {
+    height: 100vh;
+    background: url("../img/Rectangle2.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.backgrounds {
+    float: right;
+    width: 500px;
+    padding: 50px 20px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+
+.backgrounds.element-shows {
+    opacity: 0.98;
+    transition: all 1s;
+    transform: translateY(0%);
+  }
+
+.tourist__image {
+    height: 100vh;
+    background: url("../img/Rectangle3.png") center no-repeat;
+    background-size: cover;
+}
+
+.last__title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 128px;
+    margin-bottom: 91px;
+}
+
+.align__horizontally {
+    display: flex;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+.align__horizontally.element-showss {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+}
+
+.paragraph__section {
+    line-height: 1.4;
+}
+
+.background__color {
+    background-color: #333333;
+    padding: 55px 72px 25px 100px;
+}
+
+
+
