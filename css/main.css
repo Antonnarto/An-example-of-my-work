@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #544837;
+    font-weight: 400;
+}
+
+.conteiner {
+    width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 44px;
+}	
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation {
+	font-size: 14px;
+}
+
+.info {
+	display: inline-block;
+	margin: 0 10px;
+    color: #2F281E;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+
+.btn_one {
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #BCD0E5;
+    border-radius: 5px;
+	color: #173A56;
+	padding: 11px 25px;
+	text-decoration: none;
+}
+
+.btn_true {
+    background-color: #FF9900;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+	color: white;
+	padding: 11px 25px;
+	text-decoration: none;
+}
+
+.section_inner {
+    display: flex;
+	justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 172px;
+}
+
+.offer {
+     margin-top: 70px;  
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.text {
+    margin-bottom: 60px;
+	width: 450px;
+}
+
+.btn_three {
+	background: #FF9900;
+	color: white;
+	display: block;
+    border-radius: 5px;
+    width: 175px;
+	padding: 15px 0;
+	text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+	text-decoration: none;
+}
+
+
+.section-title {
+	display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: #2F281E;
+	font-size: 36px;
+	text-align: center;
+    margin-bottom: 54px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.skill-text{
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.skill-title {
+	font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    color: #2F281E;
+}
+
+.skill {
+	width: 350px;
+	background: url(../img/icon\ \(1\).png) no-repeat left top;
+	padding-top: 90px;   
+}
+
+.skill-design {
+	width: 380px;
+	background: url(../img/icon\ \(2\).png) no-repeat left top;
+}
+
+
+.skill-values {
+	background:  url(../img/icon\ \(3\).png) no-repeat left top;
+}
+
+.skill-personal {
+    background:  url(../img/icon.png) no-repeat left top;
+}
+
+.btn_four {
+    background: #FF9900;
+	color: white;
+	display: block;
+    border-radius: 5px;
+    width: 175px;
+	padding: 15px 0;
+	text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+	text-decoration: none;
+    margin: 0 auto; 
+    margin-bottom: 210px; 
+}
+
+.section-association {
+    display: flex;
+	justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.new.p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.text-info {
+    width: 486px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.section-info {
+    font-size: 36px;
+    color: #2F281E;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.skills-title {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #2F281E;
+}
+
+.new-subsection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 170px;
+}
+
+.picture-text {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    background: url(../img/Group\ 13.png) no-repeat left top;
+    padding-left: 50px;  
+}
+
+.logo-footer {
+    padding: 105px 0 33px;
+}
+
+.new-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 300px;
+    padding-bottom: 85px;
+    
+}
+
+.input {
+	width: 325px;
+	font-size: 16px;
+	border: 1px solid #bfb8d1;
+	height: 38px;
+	border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #544837;
+}
+
+.btn-five {
+    background: #FF9900;
+	color: white;
+	display: block;
+    width: 131px;
+    height: 30px;
+    text-align: center;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
